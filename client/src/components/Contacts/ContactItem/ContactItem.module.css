@@ -1,0 +1,21 @@
+td {
+    padding: 10px;
+    text-align: center;
+    background-color: #cecece;
+}
+.event {
+    display: flex;
+    width: 70px;
+}
+.icon {
+    margin: 0 10px;
+    cursor: pointer;
+}
+.accept {
+    display: flex;
+    justify-content: space-around;
+    width: 70px;
+}
+.svg {
+    cursor: pointer;
+}

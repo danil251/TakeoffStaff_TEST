@@ -1,0 +1,47 @@
+.bg:before {
+    content: "";
+    background-color: #3F3F3F;
+    opacity: 0.6;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: 1;
+}
+.modal {
+    z-index: 11;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    position: absolute;
+    border: 1px solid black;
+    background-color: #fff;
+    top: calc(50% - 150px);
+    left: calc(50% - 150px);
+
+}
+.wrap {
+    width: 240px;
+    margin: 20px auto;
+}
+.close {
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+.input,
+.PhoneInputInput{
+    width: 240px;
+    margin:0 0 10px 0;
+    height: 30px;
+    padding: 10px;
+}
+.add {
+    padding: 10px;
+}
+.error {
+    color: darkred;
+    font-size: 14px;
+    margin-top: 5px;
+}

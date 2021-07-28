@@ -1,0 +1,5 @@
+установить модули в папке client и server - npm i
+
+запустить сервер - npm run start-auth
+
+запустить клиент -  npm start

@@ -1,0 +1,21 @@
+.wrap {
+    width: 400px;
+    height: 200px;
+    padding: 10px;
+    margin: 30px auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.btn {
+    width: 150px;
+    height: 40px;
+    margin: 8px;
+}
+.input {
+    padding: 8px;
+    margin: 8px;
+    border-radius: 5px;
+    outline: none;
+}
